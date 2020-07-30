@@ -1,0 +1,106 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "06500f93ae2bc6d321b392da5cdddfc4",
+    "packages": [
+        {
+            "name": "espresso-dev/instagram-basic-display-php",
+            "version": "v1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/espresso-dev/instagram-basic-display-php.git",
+                "reference": "2dfe33e4182bd290033d129f821b591197110d81"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/espresso-dev/instagram-basic-display-php/zipball/2dfe33e4182bd290033d129f821b591197110d81",
+                "reference": "2dfe33e4182bd290033d129f821b591197110d81",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "EspressoDev\\InstagramBasicDisplay\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Herman Schutte",
+                    "email": "herman@espresso.dev"
+                }
+            ],
+            "description": "A simple PHP class for accessing the Instagram Basic Display API",
+            "homepage": "https://github.com/espresso-dev/instagram-basic-display-php",
+            "keywords": [
+                "api",
+                "instagram"
+            ],
+            "time": "2020-04-30T06:51:13+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "heroku/heroku-buildpack-php",
+            "version": "v178",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/heroku/heroku-buildpack-php.git",
+                "reference": "11809152efa1c7fbe2101d28ef530d689d1e56b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/11809152efa1c7fbe2101d28ef530d689d1e56b9",
+                "reference": "11809152efa1c7fbe2101d28ef530d689d1e56b9",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/heroku-hhvm-apache2",
+                "bin/heroku-hhvm-nginx",
+                "bin/heroku-php-apache2",
+                "bin/heroku-php-nginx"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Zuelke",
+                    "email": "dz@heroku.com"
+                }
+            ],
+            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP/HHVM and Apache2/Nginx as on Heroku",
+            "homepage": "https://github.com/heroku/heroku-buildpack-php",
+            "keywords": [
+                "apache",
+                "apache2",
+                "foreman",
+                "heroku",
+                "hhvm",
+                "nginx",
+                "php"
+            ],
+            "time": "2020-07-09T18:00:35+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
