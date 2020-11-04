@@ -1,8 +1,42 @@
 {
-  "require" : {
-    "espresso-dev/instagram-basic-display-php": "^1.1"
+  "name": "inbo/instagram-php-scraper",
+  "description": "Instagram PHP Scraper. Get account information, photos and videos without any authorization",
+  "keywords": [
+    "instagram",
+    "scraper"
+  ],
+  "type": "library",
+  "homepage": "https://inbo.ir",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nader Abdi",
+      "email": "coloner1995@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "mashape/unirest-php": "3.0.*",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "psr/simple-cache": "~1.0",
+    "raiym/instagram-php-scraper": "^0.10.0"
   },
   "require-dev": {
-    "heroku/heroku-buildpack-php": "*"
+    "phpunit/phpunit": "5.5.*",
+    "phpfastcache/phpfastcache": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "InstagramScraper\\": "src/InstagramScraper/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "InstagramScraper\\Tests\\": "tests/"
+    }
+  },
+  "support": {
+    "email": "r.kapishev@gmail.com"
   }
 }
