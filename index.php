@@ -4,7 +4,7 @@
 
 require_once('Balance.php');
 
-$b = new Balance('ariclinis','934641870@riclinis1998');
+$b = new Balance('ariclinis','pass');
 
 echo $b->getUserFollowers();
 /*
