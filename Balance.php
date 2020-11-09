@@ -3,12 +3,12 @@ require __DIR__ . '/vendor/autoload.php';
 use Phpfastcache\Helper\Psr16Adapter;
 use Goutte\Client;
 
-
 class Balance{
 
     private $instagram;
     private $username;
     private $password;
+    
 
     function __construct($username, $password){
         $this->username = $username;
@@ -46,7 +46,6 @@ class Balance{
         $form['username'] = $this->username;
         $form['enc_password'] = $this->password;
         $crawler = $client->submit($form);
-        print($this->password);
         $crawler->filter('body')->each(function ($node) {
             print $node->text()."\n";
         });
